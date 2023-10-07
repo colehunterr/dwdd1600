@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title> The Blonde Post: Home</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn about the Declaration of Independence of the United States">
+        <meta name="author" content="Cole Hunter">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="blondepost.css">
+
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <h1>The Blonde Post: Home</h1>
+            <p>Music now!</p>
+     </header>
+        <!-- Start of the page navigation-->
+        <nav> 
+            <ul>
+                <li><a href="index.html">Reviews</a></li>
+                <li><a href="albumofthemonth.html">Album of the Month</a></li>
+                <li><a href="images.html">Album Covers</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- removed <link rel="stylesheet" href="blondepost.css"> -->
+
+     </nav>
+        <!-- Start of the page content-->
+
+     <main>
+     
+        <form method="get" class="myForm" action="thankyou.html">
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name * <input type="text" name="fname" required=""></label>
+                <label>Last Name * <input type="text" name="lname" required=""></label>
+                <label>Cell Number * <input type="tel" name="phone" required="" placeholder="987-555-1234"></label>
+                <label>Email * <input type="email" name="email" required=""></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Submission Type</legend>
+                <label><input type="radio" name="method" value="album">Album</label>
+                <label><input type="radio" name="method" value="ep">EP</label>
+                <label><input type="radio" name="method" value="artist">Artist</label>
+                <label><input type="radio" name="method" value="single">Single</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Genre(s)</legend>
+                <label><input type="checkbox" name="pop" value="chosen"> Pop </label>
+                <label><input type="checkbox" name="hiphop" value="chosen"> Hip-Hop/R&B </label>
+                <label><input type="checkbox" name="indie" value="chosen"> Indie </label>
+                <label><input type="checkbox" name="electronic" value="chosen"> Electronic </label>
+                <label><input type="checkbox" name="country" value="chosen"> Country </label>
+                <label><input type="checkbox" name="rock" value="chosen"> Rock </label>
+                <label><input type="checkbox" name="jazz" value="chosen"> Jazz </label>
+                <label><input type="checkbox" name="psych" value="chosen"> Psychedelic </label>
+                <label><input type="checkbox" name="other" value="chosen"> Other</label>
+            </fieldset>
+
+            <fieldset>
+             <label> Submission Goal
+                <select name="time">
+                <option value="none">Please Select</option>
+                <option value="recommend">Recommendation</option>
+                <option value="review">For Review</option>
+                <option value="promo">Promotional</option>
+                <option value="other">Other</option>
+                
+                </select>
+                </label>
+
+            </fieldset>
+
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+                <input type="submit" value="Submit">
+        </form>
+       
+
+     </main>
+         <!-- Start of the page footer -->
+
+     <footer>
+        <p>
+            &copy; 2023 &bull; Cole Hunter &bull; <a href="mailto:colehunter@mail.com"> Email Us</a>
+        </p>
+     </footer>
+
+    </body>
+</html>
