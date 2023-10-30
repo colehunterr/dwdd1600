@@ -8,12 +8,12 @@ body{
 
 /* Header */
 header{
-    background-color: #fff;
+    background-color: #27252A;
     padding: 1rem 2%;
 }
 header h1 {
     margin: 0;
-    color: #27252A;
+    color: #ececd0;
 }
 header p {
     margin: 0;
@@ -140,7 +140,8 @@ div.gallery figure {
     display: block;
 }
 .myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea, .myForm [type=email] {
-    border: solid 1px color #888;
+    border: solid 1px;
+    color: #888;
     padding: .3rem;
     width: 250px;
     border-radius: .3rem;
